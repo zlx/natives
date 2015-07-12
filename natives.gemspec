@@ -117,7 +117,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<simplecov>, [">= 0"])
     end
   else
-    s.add_dependency(%q<ohai>, [">= 0"])
+    s.add_dependency(%q<ohai>, ["~> 6.20.0"])
     s.add_dependency(%q<thor>, [">= 0"])
     s.add_dependency(%q<bundler>, [">= 0"])
     s.add_dependency(%q<rspec>, [">= 0"])
