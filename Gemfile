@@ -1,6 +1,6 @@
 source "http://rubygems.org"
 # Add dependencies required to use your gem here.
-gem "ohai"
+gem "ohai", "~> 6.20.0"
 gem "thor"
 gem "bundler"
 
